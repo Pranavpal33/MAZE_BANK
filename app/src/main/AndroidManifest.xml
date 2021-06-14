@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maze_bank">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_m"
+        android:label="MAZE"
+        android:networkSecurityConfig="@xml/security"
+        android:roundIcon="@drawable/ic_launcher_round_m"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Investment_Options"></activity>
+        <activity android:name=".TranasferMoney" />
+        <activity android:name=".review" />
+        <activity android:name=".IntroActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Register" />
+        <activity android:name=".viewprofile" />
+        <activity android:name=".weather" />
+        <activity android:name=".AddMoney" />
+        <activity android:name=".review" />
+        <activity android:name=".Investment_Options"/>
+    </application>
+
+</manifest>
