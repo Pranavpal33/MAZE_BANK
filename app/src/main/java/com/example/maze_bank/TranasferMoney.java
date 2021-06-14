@@ -139,8 +139,8 @@ public class TranasferMoney extends AppCompatActivity implements AdapterView.OnI
 
 
 
-                    samt = scurramt - Integer.parseInt(Amount.getText().toString());
-                    rcurramt = ramt + Integer.parseInt(Amount.getText().toString());
+//                    samt = scurramt - Integer.parseInt(Amount.getText().toString());
+//                    rcurramt = ramt + Integer.parseInt(Amount.getText().toString());
 
 //
 //                    DocumentReference documentReference = fStore.collection("users").document(userID).collection("Accounts").document(spinner.getSelectedItem().toString());
